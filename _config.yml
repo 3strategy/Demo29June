@@ -1,0 +1,24 @@
+title: "מרחב למידה בעברית"
+description: "אתר שיעורים קטן ובר תחזוקה למורה"
+lang: he
+url: "https://3strategy.github.io"
+baseurl: "/Demo29June"
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "מאגר GitHub":
+    - "https://github.com/3strategy/Demo29June"
+
+nav_external_links_new_tab: true
+
+callouts:
+  note:
+    title: שימו לב
+    color: blue
