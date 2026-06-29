@@ -2,6 +2,12 @@
 
 This repository contains a small Hebrew educational website built with Jekyll, GitHub Pages, and the pinned remote theme `just-the-docs/just-the-docs@v0.12.0`.
 
+## Live Website
+
+Open the published teacher site here:
+
+https://3strategy.github.io/Demo29June/
+
 The intended workshop workflow is:
 
 1. Edit Markdown files in this Windows folder.

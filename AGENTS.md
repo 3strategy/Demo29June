@@ -4,6 +4,8 @@
 
 This repository is a small Hebrew educational website built with Jekyll, GitHub Pages, and the pinned remote theme `just-the-docs/just-the-docs@v0.12.0`.
 
+Live site for teachers: https://3strategy.github.io/Demo29June/
+
 ## Content Layout
 
 - Main pages live at the repository root, such as `index.md` and `about.md`.

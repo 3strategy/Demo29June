@@ -3,16 +3,57 @@ body {
   text-align: right;
 }
 
+.main-content,
+.breadcrumb-nav {
+  direction: rtl;
+  text-align: right;
+}
+
 .side-bar,
 .site-header,
-.main-content,
 .main-header,
 .search,
 .nav-list,
-.breadcrumb-nav,
 .aux-nav {
   direction: rtl;
-  text-align: right;
+}
+
+@media (min-width: 50rem) {
+  .side-bar {
+    right: 0;
+    left: auto;
+    border-right: 0;
+    border-left: 1px solid #eeebee;
+    align-items: stretch;
+  }
+
+  .side-bar + .main {
+    margin-right: 15.5rem;
+    margin-left: 0;
+  }
+
+  .side-bar + .main .main-header {
+    right: 15.5rem;
+    left: 0;
+  }
+
+  .search-active .side-bar + .main {
+    right: 15.5rem;
+    left: 0;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar + .main {
+    margin-right: Max(16.5rem, calc((100% - 66.5rem) / 2 + 16.5rem));
+    margin-left: 0;
+  }
+
+  .side-bar + .main .main-header,
+  .search-active .side-bar + .main {
+    right: Max(16.5rem, calc((100% - 66.5rem) / 2 + 16.5rem));
+    left: 0;
+  }
 }
 
 .main-content pre,
